@@ -227,9 +227,7 @@ h3.heading {
 .fixed {
     position: relative;
     width: 100%;
-    display: table;
-
-}
+ }
 .fixed-wrap {
     clip: rect(0, auto, auto, 0);
     position: absolute;
@@ -490,15 +488,18 @@ a.top-scroll:hover {
         font-size: 1.5rem;
     }
     .fixed-dark {
-        background-image: url('../img/three-white-ceramic-pots-with-green-leaf-plants-near-open-796602.jpg')
+        background-image: url('../img/mobileWhitePots.jpg')
     }
     .fixed-light {
-        background-image: url('../img/the-risk.jpg')
+        background-image: url('../img/riskMobileVerson.jpg')
     }
 
     .top-scroll {
         display: none!important;
     }
+    .footer {
+        background: url('../img/mobileWhitePots.jpg') no-repeat;
+           }
 }
 
 /* Devices under 576px (sm) */
