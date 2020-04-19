@@ -1,0 +1,522 @@
+/*============= RESETS =============font-family: 'Lato', sans-serif;*/
+
+/*-- iPhone X Remove Gutters --*/
+/*html {
+    padding: env(safe-area-inset);
+}*/
+
+/*-- Prevent Horizontal Scrolling & Font Style --*/
+.shortcut-icon {
+    height: auto;
+}
+html, body {
+    overflow-x:hidden;
+    font-family: 'Lato', sans-serif;
+    color: #550055;
+}
+.text-nuno {
+    color: #1EBBA3;
+}
+/*gold fading design was learned from https://www.youtube.com/watch?v=8kVTahs71UE */
+
+.text-Welcome {
+    color:transparent;
+    position: center;
+    transform: translate(-50%, -50%);
+    font-size: 65px;
+    font-family: "sans-serif";
+    letter-spacing: 5px;
+    font-weight: bold;
+    background-image: linear-gradient(to right,
+    #462523 0,
+    #cb9b51 22%,
+    #f6e27a 45%,
+    #f6f2c0 50%,
+    #f6e27a 55%,
+   #cb9b51 78%,
+    #462523 100%
+    );
+    -webkit-background-clip:text;
+    );
+
+}
+
+/*--- Nav Scrolling Offset --*/
+.offset:before {
+    content:"";
+    height: 4rem;
+display: block;
+margin-top: -4rem;
+}
+/*--- Extra Bootstrap Column Padding --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+/*============= NAVIGATION =============*/
+.navbar-brand img {
+    height: 4rem;
+}
+.navbar {
+    padding: 0.5rem 0.9rem;
+    font-weight: bold;
+    font-size: medium;
+    letter-spacing: 0.1rem;
+    transition: background-color 0.5s ease;
+}
+.navbar-nav li {
+    padding-right: 0.5rem;
+}
+.navbar-nav .nav-link {
+    color: #dfe2ce;
+    padding-top: 0.8rem;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #5d5d5d;
+}
+.custom-toggler-icon {
+    color: #eeeeee;
+    font-size: 1.8rem;
+}
+/*.navbar.solid { /* errorr errorr
+    background: rgb(54, 0, 36);
+    transition: background-color 1s ease}; --*/
+
+.navbar.solid,
+.navbar.solid-toggle {
+    background: rgba(54, 0, 36, 0.76);!important;
+    transition: background-color 1s ease;
+}
+/*-- Remove Button Outline--*/
+button:focus, a:focus, a.btn:focus {
+    outline: 0;
+    -webkit-appearance: none;
+    box-shadow: none;
+    transition: all 0.6s ease;
+    }
+button, a, a.btn,
+.svg-inline--fa{
+    transition: all  0.6s ;
+}
+/*============= LANDING PAGE =============*/
+
+/*--- Fixed Landing Page Section --*/
+.landing {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: table;
+    z-index: -1;
+}
+.home-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+.home-inner {
+    background-image: url('../img/wallpaper.png');
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    /*-- for IOS taken from stackoverflow discussion --*/
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+    display: table;
+}
+/*-- Landing Page Caption --*/
+.caption {
+    z-index: 1;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    max-width: 100%;
+}
+.caption h1 {
+    font-size: 4.5rem;
+    letter-spacing: 0.2rem;
+    padding-top: initial;
+   /* padding-left: 7rem;*/
+       padding-bottom: 27rem;
+}
+.caption h3 {
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
+
+    color: rgba(249, 252, 232, 0.22);
+    padding-left: 10rem;
+    text-shadow: 0.1rem 0.1rem 0.5rem rgba(139, 69, 19, 0.53);
+
+}
+.caption .btn-lg {
+    border-width: medium;
+    color: #dfe2ce;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
+}
+/*-- Bouncing Down Arrow --*/
+.arrow{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+}
+.down-arrow .svg-inline--fa {
+    color: white;
+    font-size: 2.2rem;
+    opacity: 0.3;
+}
+.down-arrow .svg-inline--fa:hover {
+    opacity: 0.8;
+}
+/*=============  What We do Section =============*/
+.btn-sm {
+    border-width: medium;
+    color: gray;
+    color: white;
+    border-radius: 0;
+    padding: 0.5rem 1.1rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin: 1rem;
+}
+.btn-sme {
+    background-color: #D4AF37;
+    color: white;
+}
+.btn-sme:hover {
+    background-color: #7d651f;
+    color: white;
+}
+h3.heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.9rem;
+    text-align: center;
+    margin-bottom: 1.9rem;
+}
+.heading-underline {
+    width: 4rem;
+    height: 0.2rem ;
+    background-color:#D4AF37;
+    margin: 0 auto 1rem;
+}
+
+.feature span {
+    color:#550055;
+    margin-bottom: 0.6rem;
+}
+.feature h3 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding-bottom: 0.4rem;
+}
+/*===== FIXED BACKGROUND IMG DARK =====*/
+
+/*--- iOS Fixed Background Image --*/
+
+.fixed {
+    position: relative;
+    width: 100%;
+    display: table;
+
+}
+.fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -9999;
+
+}
+.fixed-dark {
+    background-image: url('../img/time-for-change-sign-with-led-light-2277784.jpg'); /*pexels.com free image library */
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    display: table;
+}
+.dark {
+    background-color: rgba(0, 0, 0, .7);
+    padding: 7rem 0;
+    z-index: 1000;
+}
+/*============= PORTFOLIO SECTION =============*/
+.portfolio-item img:hover {
+    transform: scale(1.4);
+    cursor: zoom-in;
+}
+.portfolio-item img {
+    transition: transform .4s ease;
+}
+
+/*============= PRICING SECTION =============*/
+.pricing-column {
+    background-color: white;
+    height: 100%;
+    padding: 1.6rem;
+    border-top: .25rem solid #3c0055;
+    border-left: .25rem solid rgba(54, 4, 12, 0.61);
+
+    box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
+    transition: transform .7s ease;
+    position: relative;
+    overflow: hidden;
+}
+.pricing-column:hover {
+    transform: scale(1.1);
+}
+.pricing-column h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.ribbon {
+    background-color: rgba(54, 4, 12, 0.61);
+    color: white;
+    font-size: .8rem;
+    font-weight: 700;
+    height: 2rem;
+    width: 10rem;
+    padding-top: .4rem;
+    position: absolute;
+    transform: rotate(45deg);
+    right: -2.8rem;
+    top: 1.5rem;
+    box-shadow: 0 0 .2rem rgba(0, 0, 0, .25);
+}
+
+/*============= TEAM SECTION FIXED BG IMG LIGHT =============*/
+
+/*--- Team Light Background Image --*/
+.fixed-light {
+    background-image: url('../img/RiskCalculator.jpg');
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    display: table;
+}
+.light {
+    background-color: rgba(255, 255, 255, .75);
+    padding: 5rem 0;
+    z-index: 1000;
+}
+.owl-stage {
+    display: flex;
+
+
+}
+.card {
+    height: 100%;
+    border-radius: 0;
+    text-align: center;
+    margin: 0 1rem;
+    border: .1rem solid rgba(0, 0, 0, .075);
+    box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
+    transition: transform .4s ease;
+}
+.card:hover {
+    transform: scale(.95);
+}
+button.owl-dot.active span,
+button.owl-dot:hover span {
+    background: black;
+}
+ul.social {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+}
+ul.social li {
+    display: inline;
+    padding-right: .8rem;
+}
+ul.social li a {
+    color: mediumaquamarine;
+    transition: all .2s ease;
+}
+ul.social li a:hover {
+    color: black;
+}
+
+/*============= SKILLS SECTION =============*/
+
+
+/*============= CLIENTS SECTION =============*/
+#clients-carousel {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.clients img {
+    border-radius: 50%;
+    transition: transform .3s ease;
+}
+.clients img:hover {
+    transform: scale(.95);
+}
+blockquote .svg-inline--fa {
+    margin: 1rem;
+    color: #550055;
+}
+.clients-hr {
+    border-top: .1rem solid #550055;
+}
+
+/*============= CONTACT SECTION =============*/
+
+.footer {
+    background: url('../img/three-white-ceramic-pots-with-green-leaf-plants-near-open-796602.jpg') no-repeat;
+    background-size: cover;
+    colour: whyte;
+    opacity: 80%;
+}
+.row.outer {
+    background-color: rgba(57, 63,70, 0.50);
+    padding: 1rem 3rem 4rem;
+}
+.footer img {
+    margin: 1.5rem 0;
+}
+.footer a {
+    color: white;
+}
+.footer h3 {
+text-transform: uppercase;
+    margin: 1.5rem 0;
+}
+/*--- Contact Form --*/
+.form-group {
+    margin-bottom: 1.3rem;
+}
+
+.form-control {
+    background-color: mintcream;
+    border-radius: 0;
+    border: .15rem solid #666b71;
+    color: black!important;
+    font-size: 1.1rem;
+}
+hr.socket {
+      border-top: 0.1rem solid #666b71;
+    width: 100%;
+}
+
+/*============= TOP SCROLL =============*/
+a.top-scroll {
+    right: 1.2rem;
+    bottom: 1.2rem;
+    position: fixed;
+    opacity: .3;
+    z-index: 1000;
+    display: none;
+}
+a.top-scroll:hover {
+    opacity: .5;
+}
+.top-scroll .svg-inline--fa {
+    background: white;
+    color: #53595f;
+    font-size: 3rem;
+    height: 1.7rem;
+}
+
+
+/*============= MEDIA QUERIES taken from Bootsrap breakpoints=============*/
+
+/* Devices under 992px (lg) */
+@media (max-width: 991.98px) {
+    .caption h1 {
+        font-size: 3.5rem;
+        letter-spacing: .2rem;
+        padding-bottom: .8rem;
+    }
+    .caption h3 {
+        font-size: 2.2rem;
+        padding-bottom: 1.7rem;
+    }
+    .caption .btn-lg {
+        padding: .7rem 1.2rem;
+        font-size: 1rem;
+    }
+    .clients img {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+}
+
+/* Devices under 768px (md) */
+@media (max-width: 767.98px) {
+    .caption h1 {
+        font-size: 2.7rem;
+        letter-spacing: .15rem;
+        padding-bottom: .5rem;
+    }
+    .caption h3 {
+        font-size: 1.7rem;
+        padding-bottom: 1.2rem;
+    }
+    .caption .btn-lg {
+        padding: 18rem 95rem;
+    }
+    #help h1 {
+        font-size: 1.5rem;
+    }
+    .fixed-dark {
+        background-image: url('../img/three-white-ceramic-pots-with-green-leaf-plants-near-open-796602.jpg')
+    }
+    .fixed-light {
+        background-image: url('../img/the-risk.jpg')
+    }
+
+    .top-scroll {
+        display: none!important;
+    }
+}
+
+/* Devices under 576px (sm) */
+@media (max-width: 575.98px) {
+    .caption h1 {
+        font-size: 1.9rem;
+        letter-spacing: .1rem;
+        padding-bottom: .4rem;
+    }
+    .caption h3 {
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
+    }
+    .caption .btn-lg {
+        padding: .4rem .9rem;
+        font-size: .9rem;
+    }
+}
+
+
+
