@@ -1,0 +1,32 @@
+Free Website Design Resources - I used almost all of these in the project
+
+
+Google Fonts: https://fonts.google.com
+
+Font Awesome: https://fontawesome.com
+
+Pexels: https://www.pexels.com - ABSOLUTELY FANTASTIC FREE - ROYALTY FREE IMAGES HIGH QUALITY!!!
+
+Color Hex: http://www.color-hex.com
+
+Pine Tools: https://pinetools.com
+
+Pixlr Photo Editor: https://pixlr.com - I USED THIS TO REDUCE SOME OF THE IMG TO FIT THE RELEVANY SCREEN SIZE
+
+Pixlr Tutorial: https://youtu.be/FbMu-1sV4GM?t=126
+
+_
+
+
+Website Optimization Links 
+
+Tiny PNG Image Optimization: https://tinypng.com
+
+Pingdom Website Speed Test: https://tools.pingdom.com
+
+_
+
+
+Website Hosting - ALTHOUGH PRIVATELY I WILL USE AWS
+
+Blue Host: https://www.bluehost.com/track/w3newbie

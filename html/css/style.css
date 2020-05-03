@@ -1,4 +1,4 @@
-/*============= RESETS =============font-family: 'Lato', sans-serif;*/
+
 
 /*-- iPhone X Remove Gutters --*/
 /*html {
@@ -21,7 +21,7 @@ html, body {
 
 .text-Welcome {
     color:transparent;
-    position: center;
+    text-align: center;
     transform: translate(-50%, -50%);
     font-size: 65px;
     font-family: "sans-serif";
@@ -37,8 +37,6 @@ html, body {
     #462523 100%
     );
     -webkit-background-clip:text;
-    );
-
 }
 
 /*--- Nav Scrolling Offset --*/
@@ -90,7 +88,7 @@ margin-top: -4rem;
     transition: background-color 1s ease;
 }
 /*-- Remove Button Outline--*/
-button:focus, a:focus, a.btn:focus {
+button:focus a:focus, a.btn:focus {
     outline: 0;
     -webkit-appearance: none;
     box-shadow: none;
@@ -158,9 +156,9 @@ button, a, a.btn,
 }
 .caption .btn-lg {
     border-width: medium;
-    color: #dfe2ce;
+    color: mintcream;
     padding: 0.8rem 1.5rem;
-    font-size: 1.1rem;
+    font-size: 2rem;
 }
 /*-- Bouncing Down Arrow --*/
 .arrow{

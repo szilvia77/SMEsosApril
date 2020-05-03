@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{22f05f5398, animate, jquery-3.4.1, jquery.counterup, jquery.waypoints, lightbox, owl.carousel, owl.theme.default, validator}" />
+    <file url="PROJECT" libraries="{22f05f5398, animate, jquery-3.4.1, jquery.counterup, jquery.waypoints, lightbox, owl.carousel, owl.theme.default, solid, validator}" />
   </component>
 </project>
